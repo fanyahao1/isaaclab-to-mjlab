@@ -41,7 +41,6 @@ Use this skill when the job is to build new mjlab-native code directly.
 - **mjlab API pack** — focused docs for envs, managers, scene, sensors, simulation, terrains, RL, viewer, and tasks.
 - **Authoring workflow** — step-by-step native mjlab guidance for new code.
 - **Assistant adapters** — installation surfaces for Codex, Claude Code, Gemini CLI, Cursor, and OpenCode.
-- **Promotion & launch kits** — ready-to-paste copy in `PROMO.md` and `LAUNCH.md`.
 
 ## Who It’s For
 
@@ -114,8 +113,6 @@ bash scripts/install.sh --tool cursor --project /path/to/your/project
 ```text
 mjlab-skillkit/
 ├── SKILL.md                             # Main skillkit entry point
-├── PROMO.md                             # Promotion copy
-├── LAUNCH.md                            # GitHub / release / social launch copy
 ├── agents/openai.yaml                   # Codex/OpenAI agent config
 ├── references/                          # Domain-specific reference docs
 │   ├── migration-rules.md               #   Migration rules
